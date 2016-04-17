@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <iostream>
 #include <stdio.h>
+#include <string>
 
 #include "math.h"
 
@@ -239,7 +240,7 @@ break;
 
 root =st.Insert(n,root);
 }
-root = st.Delete(4, root);
+//root = st.Delete(4, root); //just to check if delete works
 }
 
 void inorder(splay* root) {
@@ -327,7 +328,8 @@ float angle_change = 20;
 drawCircle(segments,radius,x1,y1);
 
 char buff[5];
-itoa(t_root->data,buff,10);
+sprintf(buff, "%d", t_root->data);
+//itoa(t_root->data,buff,10);
 draw_text(buff,x1,y1);
 
 if(t_root->left) {
