@@ -228,7 +228,7 @@ if((*current)->data < (*t_root)->data) {
 void accept_tree(){
 int n;
 SplayTree st;
-cout<<"\nCREATING BST: (enter 0 to finish)\n";
+cout<<"Create splay tree: (enter 0 to finish)\n";
 while(1) {
 fflush(stdin);
 cout<<"\nEnter node value: ";
