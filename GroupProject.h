@@ -24,4 +24,3 @@ public:
 };
 
 #endif /* GroupProject_H_ */
-

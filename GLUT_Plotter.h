@@ -12,8 +12,8 @@
 #include <iostream>
 #include <cstdlib>
 #include <queue>
-#include <GLUT/glut.h>
-// #include <GL/freeglut.h> //on a PC
+//#include <GLUT/glut.h>
+#include <GL/freeglut.h> //on a PC
 using namespace std;
 
 struct Click{
@@ -76,4 +76,5 @@ void mouseFunction(int button, int state,int x, int y);
 void setpixel(char *buf, int x, int y, int r, int g, int b, int width);
 
 #endif /* GLUT_PLOTTER_H_ */
+
 

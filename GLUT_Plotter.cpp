@@ -205,3 +205,4 @@ void setpixel(char *buf, int x, int y, int r, int g, int b, int width) {
    buf[(y*width+x)*3+2] = b;
 }
 
+

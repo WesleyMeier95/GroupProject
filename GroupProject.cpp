@@ -39,3 +39,4 @@ void GroupProject::Play(void){
 	g->Draw();
 }
 
+
